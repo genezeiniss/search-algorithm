@@ -24,7 +24,7 @@ public class SearchUtil {
     /**
      * returns the index position of a target if found, else returns -1.
      * note: the values in the list must be sorted in ascending order!
-     * <p>
+     *
      * current implementation:
      * we are pointing to the different sections of the original list (without to create a sub-list).
      * it means, that search complexity is constant (it takes constant space of size n - O(1)), since
